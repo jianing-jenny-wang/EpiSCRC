@@ -1,0 +1,18 @@
+Package: v0
+Title: Fitting Spatial Capture-Recapture Approach for Estimating Disease Prevalence in Small Areas Using Healthcare-based Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jianing", "Wang", , "jnwang@bu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package is Fitting Bayesian hierarchical spatial Capture-Recapture model for traditional healthcare-based data
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    matrixsampling,
+    nimble,
+    reshape2
