@@ -1,7 +1,4 @@
 prepareICARmodelConst <- function(names_of_k, W_val){
-  ###################################################################
-  #### MODEL 3 - Assuming ICAR Model with Beta0, spRE, no Nugget ####
-  ###################################################################
   ### Prepare INTRINSIC CAR (ICAR) model specification ###
   ## Reshape the adjacency matrix to get adjacency list
   ## (i.e. A vector of indices indicating which regions are neighbors of which.)
